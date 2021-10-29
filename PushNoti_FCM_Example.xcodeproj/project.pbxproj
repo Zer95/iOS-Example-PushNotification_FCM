@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54F804D1FF8C38B6364097BB /* Pods_PushNoti_FCM_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99337060BF7CF6FB653D449 /* Pods_PushNoti_FCM_Example.framework */; };
 		D2C99496272BE51B00EEE3CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C99495272BE51B00EEE3CD /* AppDelegate.swift */; };
 		D2C99498272BE51B00EEE3CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C99497272BE51B00EEE3CD /* SceneDelegate.swift */; };
 		D2C9949A272BE51B00EEE3CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C99499272BE51B00EEE3CD /* ViewController.swift */; };
 		D2C9949D272BE51B00EEE3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C9949B272BE51B00EEE3CD /* Main.storyboard */; };
 		D2C9949F272BE51C00EEE3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C9949E272BE51C00EEE3CD /* Assets.xcassets */; };
 		D2C994A2272BE51C00EEE3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C994A0272BE51C00EEE3CD /* LaunchScreen.storyboard */; };
+		D2C994AA272BE7FF00EEE3CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C994A9272BE7FF00EEE3CD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17ABE9D31E855E2675F7CA62 /* Pods-PushNoti_FCM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNoti_FCM_Example.release.xcconfig"; path = "Target Support Files/Pods-PushNoti_FCM_Example/Pods-PushNoti_FCM_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AAFAAC5FACB951020DA9CA8A /* Pods-PushNoti_FCM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNoti_FCM_Example.debug.xcconfig"; path = "Target Support Files/Pods-PushNoti_FCM_Example/Pods-PushNoti_FCM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D2C99492272BE51B00EEE3CD /* PushNoti_FCM_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNoti_FCM_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C99495272BE51B00EEE3CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C99497272BE51B00EEE3CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		D2C9949E272BE51C00EEE3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C994A1272BE51C00EEE3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2C994A3272BE51C00EEE3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C994A9272BE7FF00EEE3CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D99337060BF7CF6FB653D449 /* Pods_PushNoti_FCM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNoti_FCM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F804D1FF8C38B6364097BB /* Pods_PushNoti_FCM_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9E292F6DD2A8D19C4680CD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D99337060BF7CF6FB653D449 /* Pods_PushNoti_FCM_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4E8B35592BD7C19A6C8FAF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAFAAC5FACB951020DA9CA8A /* Pods-PushNoti_FCM_Example.debug.xcconfig */,
+				17ABE9D31E855E2675F7CA62 /* Pods-PushNoti_FCM_Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D2C99489272BE51B00EEE3CD = {
 			isa = PBXGroup;
 			children = (
 				D2C99494272BE51B00EEE3CD /* PushNoti_FCM_Example */,
 				D2C99493272BE51B00EEE3CD /* Products */,
+				B4E8B35592BD7C19A6C8FAF0 /* Pods */,
+				A9E292F6DD2A8D19C4680CD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +90,7 @@
 				D2C9949E272BE51C00EEE3CD /* Assets.xcassets */,
 				D2C994A0272BE51C00EEE3CD /* LaunchScreen.storyboard */,
 				D2C994A3272BE51C00EEE3CD /* Info.plist */,
+				D2C994A9272BE7FF00EEE3CD /* GoogleService-Info.plist */,
 			);
 			path = PushNoti_FCM_Example;
 			sourceTree = "<group>";
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2C994A6272BE51C00EEE3CD /* Build configuration list for PBXNativeTarget "PushNoti_FCM_Example" */;
 			buildPhases = (
+				F534BABF52BB58E47842B289 /* [CP] Check Pods Manifest.lock */,
 				D2C9948E272BE51B00EEE3CD /* Sources */,
 				D2C9948F272BE51B00EEE3CD /* Frameworks */,
 				D2C99490272BE51B00EEE3CD /* Resources */,
+				7E57FF9E8CB76E96E429AC62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C994A2272BE51C00EEE3CD /* LaunchScreen.storyboard in Resources */,
+				D2C994AA272BE7FF00EEE3CD /* GoogleService-Info.plist in Resources */,
 				D2C9949F272BE51C00EEE3CD /* Assets.xcassets in Resources */,
 				D2C9949D272BE51B00EEE3CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E57FF9E8CB76E96E429AC62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushNoti_FCM_Example/Pods-PushNoti_FCM_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushNoti_FCM_Example/Pods-PushNoti_FCM_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushNoti_FCM_Example/Pods-PushNoti_FCM_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F534BABF52BB58E47842B289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PushNoti_FCM_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2C9948E272BE51B00EEE3CD /* Sources */ = {
@@ -284,6 +357,7 @@
 		};
 		D2C994A7272BE51C00EEE3CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFAAC5FACB951020DA9CA8A /* Pods-PushNoti_FCM_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +386,7 @@
 		};
 		D2C994A8272BE51C00EEE3CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17ABE9D31E855E2675F7CA62 /* Pods-PushNoti_FCM_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

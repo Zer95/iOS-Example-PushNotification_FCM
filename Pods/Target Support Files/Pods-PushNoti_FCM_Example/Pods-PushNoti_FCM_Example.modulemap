@@ -1,0 +1,6 @@
+framework module Pods_PushNoti_FCM_Example {
+  umbrella header "Pods-PushNoti_FCM_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
